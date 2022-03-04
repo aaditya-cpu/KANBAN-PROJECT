@@ -1,0 +1,156 @@
+.kanban {
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    background: #478C5C;
+    border-radius: 5px;
+}
+
+.kanban * {
+    font-family: sans-serif;
+}
+
+.kanban__column {
+    flex: 1;
+    background-color: #013A20;
+    opacity: .7;
+    border-radius: 10px;
+    margin: 1%;
+    background: #013A20;
+    box-shadow: 31px 31px 39px #478C5C, -31px -31px 39px #01512d;
+}
+
+.kanban__column:not(:last-child) {
+    margin-right: 30px;
+}
+
+.kanban__column-title {
+    margin: 20px 10px;
+    font-size: 30px;
+    color: #BACC81;
+    user-select: none;
+    text-align: center;
+}
+
+.kanban__item-input {
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background: #CDD193;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: .2em 1em;
+}
+
+.kanban__dropzone {
+    height: 10px;
+    transition: background 0.15s, height 0.15s;
+}
+
+.kanban__dropzone--active {
+    height: 20px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.kanban__add-item {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quote {
+    background: red;
+    width: 50Vh;
+    height: 50Vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 3em;
+    border-radius: 44px;
+    background: #013A20;
+    box-shadow: 31px 31px 39px #012313, -31px -31px 39px #0000
+}
+
+.dibba {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* From https://css.glass */
+    background: rgba(205, 209, 147, 0.81);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(14.7px);
+    -webkit-backdrop-filter: blur(14.7px);
+    border: 1px solid rgba(205, 209, 147, 0.83);
+}
+
+* {
+    font-family:
+}
+
+
+/* !!!!!Colour Schema!!! */
+
+
+/* Forest Green **dark
+#013A20
+
+Emerald Green
+#478C5C
+
+Lint
+#BACC81
+
+Lint **light
+#CDD193 */
+
+.quote {
+    background: red;
+    width: 50Vh;
+    height: 50Vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 3em;
+    border-radius: 44px;
+    background: #013A20;
+    box-shadow: 31px 31px 39px #012313, -31px -31px 39px #0000
+}
+
+.dibba {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* From https://css.glass */
+    background: rgba(205, 209, 147, 0.81);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(14.7px);
+    -webkit-backdrop-filter: blur(14.7px);
+    border: 1px solid rgba(205, 209, 147, 0.83);
+}
+
+.quote-text,
+.author {
+    font-size: 1.5em;
+    color: #CDD193;
+}
